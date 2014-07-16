@@ -1,0 +1,34 @@
+"字符格式
+let $LANG="zh_CN.UTF-8"
+set termencoding=utf-8
+set fileencoding=utf-8
+set encoding=utf-8
+
+
+"语法高亮
+syntax on
+
+
+"设置行号
+set number
+
+
+"设置缩进为4字符
+set shiftwidth=4
+set tabstop=4
+
+
+"自动缩进
+set autoindent
+set cindent
+
+
+if &term=="xterm"
+set t_Co=8
+set t_Sb=^[[4%dm
+set t_Sf=^[[3%dm
+endif
+
+
+"使用鼠标
+set mouse=a
