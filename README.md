@@ -8,3 +8,5 @@ My_Configure
 
 ### .vimrc_simple
 简化后在实习时候终端使用的 vim 配置方案
+
+随便写点啥，凑个色块
